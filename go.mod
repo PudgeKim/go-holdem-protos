@@ -1,3 +1,3 @@
-module github.com/PudgeKim/holdemprotos
+module github.com/PudgeKim/go-holdem-protos
 
 go 1.16
