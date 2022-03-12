@@ -24,6 +24,5 @@ message BalanceRequest {
 }
 
 message BalanceResponse {
-  bool isSuccess = 1;
-  string errorMessage = 2; // isSuccess가 true면 ""
+  uint64 totalBalance = 1;
 }
