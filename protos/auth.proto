@@ -20,7 +20,7 @@ message User {
 
 message BalanceRequest {
   string userId = 1;
-  string balanceChange = 2; // 잔고가 얼마나 증가/감소 됬는지
+  int64 balanceChange = 2; // 잔고가 얼마나 증가/감소 됬는지
 }
 
 message BalanceResponse {
